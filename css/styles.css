@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap'); 
+body {
+    font-family:"roboto, sans-serif";
+    color: #212121;
+}
+.logo-block{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
+}
+span{
+    color:#2196F3
+}
+.menu {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    cursor: pointer;
+}
+.link-menu{
+    text-decoration: none;
+    color: #212121;
+}
+.link-menu:hover{
+	color:#2196F3;
+}
+.link-menu:focus {
+    color:#2196F3   
+}
+.contact-menu{
+    color: #757575;
+    text-decoration: none;
+}
+.contact-menu:hover{
+	color:#2196F3;
+}
+.contact-menu:focus {
+        color:#2196F3
+    } 
+.section-one{
+    background-color:#2F303A;
+}
+.title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+color: #FFFFFF;
+text-align: center;
+}
+.button {
+    background-color:#2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+.title-lorem-ipsum{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.text{
+font-size: 14px;
+line-height: 1.71;
+color: #757575;
+}
+.title-section{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+.our-tem{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+}
+.workplace-item{
+    font-size: 16px;
+    line-height: 1.19;
+    color: #757575;
+}
+.footer{
+    background: #2F303A;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.link-footer{
+text-decoration: none;
+color: #FFFFFF;
+}
+.button-portfolio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    cursor: pointer;
+}
+.button-portfolio:hover{
+	background-color:#2196F3;
+    color: #FFFFFF;
+}
+.button-portfolio:focus{
+    background-color:#2196F3;
+    color: #FFFFFF;
+    }
+.item-list{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.text-list{
+    font-size: 16px;
+    line-height: 1.88;
+    color: #757575;
+}
