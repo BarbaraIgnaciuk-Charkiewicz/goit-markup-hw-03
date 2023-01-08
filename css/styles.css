@@ -220,6 +220,7 @@ border-color: #F5F4FA;
     display: flex;
     list-style: none;
     align-items: center;
+    margin-left: 8px;
    }
    .list-portfolio{
     display: flex;
