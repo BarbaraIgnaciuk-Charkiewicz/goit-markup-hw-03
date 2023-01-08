@@ -1,5 +1,8 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+*: {
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;}
 body{
     font-family:"roboto, sans-serif";
     color: #212121;
@@ -7,8 +10,6 @@ body{
 .container{
     width: 100%;
     max-width: 1200px;
-    margin: 0px;
-    padding: 0px;
 }
 .logo-block{
 font-family: 'Raleway';
@@ -230,9 +231,7 @@ border-color: #F5F4FA;
    .products{
     padding-left: 30px;
     flex-basis: calc( (100% - 3 * 30px) / 3);
-    border: solid;
-    border-color: #EEEEEE;
-    border-width: 1px;
+    border: 1px solid  #EEEEEE;
     margin: 0px;
    }
    
