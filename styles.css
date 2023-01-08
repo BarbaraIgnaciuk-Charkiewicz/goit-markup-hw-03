@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
-*: {
-    margin: 0;
-    padding:0;
-    box-sizing:border-box;}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;}
 body{
-    font-family:"roboto, sans-serif";
-    color: #212121;
+font-family:"roboto, sans-serif";
+color: #212121;
 }
 .container{
-    width: 100%;
-    max-width: 1200px;
+width: 100%;
+max-width: 1200px;
 }
 .logo-block{
 font-family: 'Raleway';
@@ -18,9 +18,7 @@ font-size: 26px;
 line-height: 1.19;
 text-decoration: none;
 list-style: none;
-padding-left: 215px;
-padding-top: 24px;
-padding-bottom: 25px;
+
 }
 span{
     color:#2196F3
@@ -30,19 +28,23 @@ span{
     font-weight: 500;
     line-height: 1.17;
     cursor: pointer;
-    margin: 0px;
+    padding-top: 24px;
+    padding-right: 25px;
 }
 .menu-list{
     list-style: none;
-    margin: 0px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 32px;
 }
 .link-menu{
     text-decoration: none;
     color: #212121;
     padding-right: 46px;
 }
-.link-menu:last-child {
-    padding-left: 0;
+
+.menu-list:last-child {
+    padding-right: 0 px;
   }
 .link-menu:hover{
 	color:#2196F3;
@@ -51,9 +53,12 @@ span{
     color:#2196F3   
 }
 .contact-menu{
+    display: flex;
     color: #757575;
     text-decoration: none;
-    margin: 0px;
+    margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .contact-menu:hover{
 	color:#2196F3;
@@ -62,7 +67,8 @@ span{
         color:#2196F3
     } 
 .section-one{
-    background-color:#2F303A;
+background-color:#2F303A;
+width: 1200px;
 }
 .title {
 font-weight: 900;
@@ -70,9 +76,9 @@ font-size: 44px;
 line-height: 1.36;
 color: #FFFFFF;
 padding-top: 200px;
-padding-bottom: 30px;
-padding-left: 452px;
-padding-right: 452px;
+margin-bottom: 30px;
+padding-left: 250px;
+padding-right: 250px;
 text-align: center;
 }
 .button {
@@ -82,6 +88,8 @@ text-align: center;
     line-height: 1.88;
     color:#FFFFFF;
     cursor: pointer;
+    margin-bottom: 200px;
+    margin-left: 544px;
 }
 .title-lorem-ipsum{
     font-weight: 700;
@@ -116,17 +124,28 @@ line-height: 1.19;
     font-size: 14px;
     line-height: 1.71;
     color: #FFFFFF;
+    list-style: none;
     text-decoration: none;
+    padding-left: 215px;
+    padding-top: 111px;
+    padding-bottom: 60px;
 }
 .link-footer{
 text-decoration:none;
 color: #FFFFFF;
+}
+.footer-list{
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
 }
 .button-portfolio{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     cursor: pointer;
+    margin-right: 8px;
 }
 .button-portfolio:hover{
 	background-color:#2196F3;
@@ -135,7 +154,6 @@ color: #FFFFFF;
 .button-portfolio:focus{
     background-color:#2196F3;
     color: #FFFFFF;
-    padding-right: 8px;
     }
 .item-list{
     font-weight: 700;
@@ -186,52 +204,60 @@ border-color: #ECECEC;
     display: flex;
     align-items: center;
     list-style: none;
-
 }
-.item.jgp{
+.item-jgp{
 display: flex;
-align-items: center;
 list-style: none;
-padding-left: 215px;
-margin: 0px;
 }
-.jgp{
-    display: inline-flex;
+.jgp>img{
+    flex-basis: calc((100%-2*30px)/3);
     margin-left: 30px;
-    flex-grow:calc(( 100% - 2 * 30px) /3);
+                                                               
 }
 .jgp:not:first-child{margin-left: 0px;}
 .card{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    flex: grow 25%;
-    margin: 0px;
-    padding-left: 30px;
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+gap:30px;
 }
-.card:
-
+.team-list>figure{
+background-color: #FFFFFF;
+}
+.team-list:not(1){
+    padding: left 30px;
+}
+.team-list{
+text-align:center;}
 .workplace{
-    background-color: #E5E5E5;
-align-items: center;
-border: solid;
-border-color: #F5F4FA;
+background-color: #E5E5E5;
+border:1px solid;
+border-color: #000000;
 }
 .button-menu{
     display: flex;
     list-style: none;
     align-items: center;
-    margin-left: 8px;
+    padding-left: 510px;
+    padding-right: 518px;
+    padding-bottom: 34px;
    }
-   .list-portfolio{
+.list-portfolio{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    gap: 30px;
    }
-   .products{
-    padding-left: 30px;
-    flex-basis: calc( (100% - 3 * 30px) / 3);
-    border: 1px solid  #EEEEEE;
-    margin: 0px;
+.products{
+border: 1px solid  #EEEEEE;
+}
+.products:not(1,3,6){
+    padding: left 30px;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
    }
-   
+.title-section{
+padding-bottom: 50px;
+}
